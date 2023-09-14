@@ -14,7 +14,6 @@ app.get("/home",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("Hello everyone welcome to the world of here to display this , Hello everyone welcome to the world of here to display this,Hello everyone welcome to the world of here to display this")
 })
-
 app.listen(PORT,()=>{
     console.log(`server is running on http://localhost:${PORT}`)
 })
