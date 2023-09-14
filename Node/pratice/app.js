@@ -10,7 +10,6 @@ app.get("/",(req,res)=>{
 app.get("/home",(req,res)=>{
     res.send("Hello from home page")
 })
-
 app.get("/about",(req,res)=>{
     res.send("Hello everyone welcome to the world of here to display this , Hello everyone welcome to the world of here to display this,Hello everyone welcome to the world of here to display this")
 })
